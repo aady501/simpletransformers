@@ -1,7 +1,10 @@
 import logging
 
 import pandas as pd
-
+# For colab
+import sys
+sys.path.insert(0,'/content/simpletransformers')
+# For colab
 from simpletransformers.seq2seq import Seq2SeqModel
 
 logging.basicConfig(level=logging.INFO)
